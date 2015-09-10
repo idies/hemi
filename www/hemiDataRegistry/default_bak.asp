@@ -22,7 +22,7 @@
 	//alert("hi");
  	var oConn   = Server.CreateObject("ADODB.Connection");  	
 	var oCmd    = Server.CreateObject("ADODB.Command"); 	
-	var strConn = "Provider=SQLOLEDB;User ID=hemiuser;Password=hemi1977;"; 	
+	var strConn = "Provider=SQLOLEDB;User ID=hemiuser;Password=********;"; 	
 	strConn	   += "Initial Catalog=Mede;Data Source=thumper";           	
 	oConn.Open(strConn); 	
 	oCmd.ActiveConnection = oConn; 
