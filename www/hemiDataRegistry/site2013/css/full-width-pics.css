@@ -1,0 +1,79 @@
+body {
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.full-width-image-1 {
+	background: url(http://farm9.staticflickr.com/8220/8301312855_b967138016_k.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 125px 0;
+    background-position: 25% 68%;
+}
+
+.full-width-image-2 {
+	background: url(http://farm9.staticflickr.com/8358/8307748686_04b2f95624_h.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+    background-position: 25% 75%;
+	height: 450px;
+}
+
+.logo-wrapper {
+	display: inline-block;
+}
+
+.section {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.section-heading {
+	font-size: 4em;
+	margin: 30px 0;
+    text-align: center;
+       font-family: 'Spicy Rice', cursive;
+}
+
+.section-lead {
+	margin: 30px 0;
+    text-align: center;
+       font-family: 'Spicy Rice', cursive;
+}
+
+.section-paragraph {
+	margin: 30px 0;
+    text-align: center;
+       font-family: 'Spicy Rice', cursive;
+}
+
+footer {
+	margin: 15px 0;
+}
+
+.navbar-inverse {
+    background-color: #085F00;
+    border: #ff0000;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+#sortedtable thead th {
+font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+
+.section-heading {
+	font-size: 2em;
+}
+
+.section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+}
