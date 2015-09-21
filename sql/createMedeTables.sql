@@ -30,11 +30,12 @@ CREATE TABLE [dbo].[dataset](
 	[FileFormat] [varchar](100) NULL,
 	[FileType] [varchar](100) NULL,
 	[RelatedData] [varchar](1000) NULL,
-	[ContactName] [varchar](100) NULL,
 	[ContactEmail] [varchar](100) NULL,
 	[Identifier] [varchar](100) NULL,
 	[Keywords] [varchar](1000) NULL,
-	[URL] [varchar](200) NULL
+	[URL] [varchar](200) NULL,
+	[ContactFirstName] [varchar] (100) NULL,
+	[ContactLastName] [varchar] (100) NULL
 ) ON [PRIMARY]
 
 GO
