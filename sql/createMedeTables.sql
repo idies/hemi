@@ -8,6 +8,7 @@ GO
 CREATE TABLE [dbo].[CTRG](
 	[CTRGID] [int] NULL,
 	[name] [varchar](100) NULL
+	[CMRGID] [int] NOT NULL
 ) ON [PRIMARY]
 
 GO
