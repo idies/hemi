@@ -88,3 +88,26 @@ CREATE TABLE [dbo].[task](
 GO
 SET ANSI_PADDING OFF
 GO
+
+
+
+
+/****** Object:  Table [dbo].[CMRG]    Script Date: 9/22/2015 11:33:42 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[CMRG](
+	[CMRGID] [int] NOT NULL,
+	[CMRGName] [varchar](100) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
